@@ -123,6 +123,14 @@ header a{
     color: #202020;
 }
 
+header .logo a{
+    
+}
+
+header .logo a:hover{
+    
+}
+
 header .links a{
     margin-right: 2rem;
 }
