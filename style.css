@@ -119,36 +119,16 @@ header{
     overflow: hidden;
 }
 
+header:hover{
+    padding-top: 4rem;
+}
+
 header a{
     color: #202020;
 }
 
 .links-container{
-    display: none;
-}
-
-.links-container a{
-    color: #fff;
-    padding: 1rem;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.links-container a:hover{
-    background-color: #FF0077;
-}
-
-.links-container:hover + .logo{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    background-color: #202020;
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
-}
-
-header .links a{
-    margin-right: 2rem;
+    margin-top: -4rem;
 }
 
 /* central */
